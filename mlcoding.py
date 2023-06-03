@@ -2,7 +2,7 @@
 """
 Created on Thu Jun  1 19:40:00 2023
 
-@author: manish
+@author: ankit
 """
 
 import streamlit as st
@@ -22,7 +22,7 @@ if os.path.exists("sourcev.csv"):
     df = pd.read_csv("sourcev.csv",index_col=None)
 
 with st.sidebar:
-    st.image("https://miro.medium.com/v2/resize:fit:1400/format:webp/1*cG6U1qstYDijh9bPL42e-Q.jpeg")
+    st.image("https://www.fsm.ac.in/blog/wp-content/uploads/2022/08/ml-e1610553826718.jpg")
     st.header("Welcome to the Application!")
     st.subheader("This is made for learning machine models. You can do both classification and regression analysis here.")
     st.caption("Choose your parameters below to work on the application.")
